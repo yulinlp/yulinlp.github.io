@@ -54,3 +54,10 @@ Hello, I am a master's student at the Research Center for Social Computing and I
 - 🏆 <span class="conference-tag">NeurIPS 2025 </span><span style="color:red">(🌟Spotlight - Top 3.2% of Submissions)</span>  Weixiang Zhao, Jiahe Guo, Yang Deng, Tongtong Wu, Wenxuan Zhang, **Yulin Hu**, Xingyu Sui, Yanyan Zhao, Wanxiang Che, Bing Qin, Tat-Seng Chua, Ting Liu. *When Less Language is More: Language-Reasoning Disentanglement Makes LLMs Better Multilingual Reasoners.* [[paper]](https://arxiv.org/pdf/2505.15257)
 - <span class="conference-tag">ACL 2025 (Findings)</span> Weixiang Zhao, **Yulin Hu**, Jiahe Guo, Xingyu Sui, Tongtong Wu, Yang Deng, Yanyan Zhao, Bing Qin, Wanxiang Che, Ting Liu. *Lens: Rethinking Multilingual Enhancement for Large Language Models.* [[paper]](https://arxiv.org/pdf/2410.04407) [[repo]](https://github.com/circle-hit/Lens)
 - 🏆 <span class="conference-tag">ACL 2025 </span><span style="color:red">(Main, 🌟Oral & Panel - Top 0.3% of Submissions)</span>  Weixiang Zhao, **Yulin Hu**, Yang Deng, Tongtong Wu, Wenxuan Zhang, Jiahe Guo, An Zhang, Yanyan Zhao, Bing Qin, Tat-Seng Chua, Ting Liu. *MPO: Multilingual Safety Alignment via Reward Gap Optimization.*
+
+
+## Internships
+- Dec 2024 - April 2025. Research Intern. Du Xiaoman (Beijing) Science Technology Co., Ltd, Beijing, China. Supervisor: Dr. Biye Li.
+
+## Selected Awards and Honors
+- Excellent Thesis, Harbin Institute of Technology, 2025
