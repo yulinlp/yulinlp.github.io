@@ -27,7 +27,7 @@ Open http://127.0.0.1:4000/.
 
 ## Publish
 
-GitHub Pages uses GitHub Actions. A push to `main` builds and deploys the website. The same workflow refreshes Google Scholar daily at 01:23 UTC (09:23 Beijing time), and can also be run manually from Actions. Scheduled runs may be delayed by GitHub; inactive public repositories may have schedules disabled after 60 days.
+GitHub Pages uses GitHub Actions. A push to `main` builds and deploys the website. A Codex automation on the owner’s Mac refreshes Google Scholar daily at 09:23 Beijing time and pushes the data. The Mac and Codex must be running. Google Scholar returned HTTP 403 from GitHub-hosted runners during validation, so cloud scheduling is disabled. The workflow retains a manual refresh option for troubleshooting.
 
 Citation totals and per-paper counts are refreshed from Google Scholar. Newly indexed papers are added under Recent Publications with full author names fetched from their Scholar detail pages. Existing editorial metadata (topics, author roles, conference labels, awards, links) is preserved; curate new entries in `_data/publications.json` when needed. If Scholar blocks a request or returns incomplete data, the workflow keeps the previous data and reports a failed refresh. No API key is required. CUE-Mem remains present even before Scholar indexes it.
 
