@@ -1,3 +1,5 @@
+url: "https://yulinlp.github.io"
+baseurl: ""
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
@@ -7,8 +9,8 @@
 
 # Site Settings
 title                    : "Yulin Hu"
-description              : "Welcome to Yulin Hu's official website."
-repository               : "RayeRen/acad-homepage.github.io"
+description              : "Master’s student"
+repository               : "yulinlp/yulinlp.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -21,14 +23,14 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Yulin Hu"
-  avatar           : "images/android-chrome-512x512.png"
+  name             : "Yulin Hu (胡雨林)"
+  avatar           : "images/avatar.jpeg"
   bio              : "SCIR, Harbin Institute of Technology"
   location         : "Harbin, China"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=ZhV-ua0AAAAJ"
-  email            : "yulinhu@ir.hit.edu.cn"
+  email            : "ylhu@ir.hit.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -37,7 +39,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : "yulinlp"
   google_plus      :
   keybase          :
   instagram        :

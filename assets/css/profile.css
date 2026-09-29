@@ -1,0 +1,69 @@
+/* AcadHomepage publication presentation, adapted from Qiguang Chen's MIT-licensed site. */
+html { scroll-behavior: smooth; }
+body { color: #333; }
+a { color: #2879b0; }
+a:hover { color: #175b87; }
+.page__content { font-family: "Trebuchet MS", Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.65; }
+.page__content h1 { font-size: 1.85rem; color: #252525; margin: 0 0 1rem; }
+.chinese-name { font-size: .8em; font-weight: 500; margin-left: .4em; }
+.page__content h2 { margin-top: 1.8rem; padding-bottom: .35rem; border-bottom: 1px solid #eee; font-size: 1.65rem; color: #222; scroll-margin-top: 85px; }
+.page__content h3 { font-size: 1.35rem; margin: 1.5rem 0 .75rem; color: #252525; scroll-margin-top: 85px; }
+#about { scroll-margin-top: 85px; }
+.topic-index { display: flex; flex-wrap: wrap; gap: .25rem 1rem; margin: .5rem 0 1.3rem; font-size: .875rem; line-height: 1.8; }
+.topic-index a { text-decoration: none; border-bottom: 1px dotted #adc2d0; }
+.page__content .publication-list { list-style: disc; padding-left: 1.25rem; margin: 0; }
+.page__content .publication-list li { padding-left: .12rem; margin-bottom: .9rem; line-height: 1.8; }
+.publication-entry::marker { color: #515151; font-size: .7em; }
+.conference-tag, .preprint-tag { display: inline; padding: 2px 7px; border-radius: 4px; font-weight: 700; font-size: .86em; color: #fff; white-space: normal; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+.conference-tag { background: #7155d9; }
+.preprint-tag { background: #68737e; }
+.paper-title { font-size: 1em; font-weight: 400; text-decoration: none; }
+.paper-title:hover { text-decoration: underline; }
+.paper-authors { color: #363636; font-size: 1em; }
+.paper-authors strong { color: #171717; font-weight: 700; }
+.paper-distinction { color: #c52932; font-weight: 600; text-decoration: none; }
+.paper-distinction:hover { color: #a11521; text-decoration: underline; }
+.topic-tag { display: inline; border-radius: 4px; padding: 2px 6px; font-size: .82em; white-space: nowrap; color: #fff; }
+.tag-memory { background: #247e95; }
+.tag-agent { background: #277e7e; }
+.tag-personalization { background: #9560a8; }
+.tag-multimodal { background: #43804e; }
+.tag-safety { background: #9d6260; }
+.tag-alignment { background: #7167a4; }
+.tag-role-playing { background: #9a597f; }
+.tag-emotion, .tag-dialogue { background: #a6507e; }
+.tag-reasoning { background: #5a73aa; }
+.tag-efficiency { background: #607946; }
+.tag-multilingual { background: #976b38; }
+.tag-continual-learning { background: #5a7790; }
+.tag-unlearning { background: #75705e; }
+.tag-steering { background: #696a99; }
+.tag-tool-use, .tag-evaluation { background: #6d7580; }
+.paper-resource { font-size: .88em; white-space: nowrap; text-decoration: none; }
+.citation-count { font-size: .85em; color: #68727b; white-space: nowrap; text-decoration: none; margin-left: .15rem; }
+.citation-highlight { color: #c52932; font-weight: 700; }
+.author__bio { line-height: 1.5; }
+.site-credit { color: #66717d; font-size: .8rem; border-top: 1px solid #e4e8ed; padding-top: 1rem; margin-top: 3rem; }
+:focus-visible { outline: 2px solid #2879b0; outline-offset: 3px; }
+@media (max-width: 767px) {
+ .page__content h1 { font-size: 1.65rem; }
+ .page__content h2 { font-size: 1.5rem; }
+ .page__content h3 { font-size: 1.2rem; }
+ .page__content .publication-list { padding-left: 1.1rem; }
+ .paper-title, .paper-authors { overflow-wrap: anywhere; }
+ .topic-index { display: grid; grid-template-columns: 1fr; gap: .3rem; }
+ .topic-index a { justify-self: start; }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+.submission-status { color: #86611f; font-size: .9em; font-weight: 500; }
+
+.student-first-tag { display: inline; padding: 2px 6px; border-radius: 4px; font-size: .82em; font-weight: 700; color: #73510c; background: #fff0c2; white-space: nowrap; }
+
+
+.publications-heading { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-top: 1.8rem; padding-bottom: .5rem; border-bottom: 1px solid #eee; scroll-margin-top: 85px; }
+.page__content .publications-heading h2 { margin: 0; padding: 0; border: 0; }
+.citation-stat { display: flex; align-items: baseline; gap: .4rem; flex-shrink: 0; }
+.citation-stat strong { font-size: 2rem; font-weight: 750; line-height: 1; color: #c52932; font-variant-numeric: tabular-nums; }
+.citation-stat span { font-size: .8rem; color: #68727b; }
+@media (max-width: 480px) { .citation-stat strong { font-size: 1.65rem; } .citation-stat { flex-direction: column; align-items: flex-end; gap: .15rem; } }

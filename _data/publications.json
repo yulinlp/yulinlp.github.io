@@ -1,0 +1,695 @@
+[
+  {
+    "icon": "🧠",
+    "name": "Agent Memory & Personalization",
+    "id": "memory-personalization",
+    "papers": [
+      {
+        "title": "CUE-Mem: Benchmarking Long-Term User Memory via Implicit Cues in Multimodal Conversations",
+        "authors": "Yulin Hu, Yanyan Zhao, Zimo Long, Xing Fu, Mengtong Ji, Weixiang Zhao, Yutai Hou, Qianchao Wang, Dandan Tu",
+        "venue": "arXiv 2026",
+        "venue_type": "preprint",
+        "paper_url": "https://arxiv.org/abs/2609.32574",
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://arxiv.org/abs/2609.32574"
+          },
+          {
+            "label": "Code",
+            "url": "https://github.com/yulinlp/CUE-MEM"
+          },
+          {
+            "label": "Demo",
+            "url": "https://reichenbach1854-hash.github.io/CUE-Mem/"
+          },
+          {
+            "label": "Dataset",
+            "url": "https://huggingface.co/datasets/Kkryptonite/CUE-Mem"
+          }
+        ],
+        "tags": [
+          {
+            "label": "Memory",
+            "style": "memory"
+          },
+          {
+            "label": "Multimodal",
+            "style": "multimodal"
+          },
+          {
+            "label": "Agent",
+            "style": "agent"
+          }
+        ],
+        "distinction": "",
+        "distinction_source": "",
+        "featured_citations": false,
+        "submission_status": "Submitted to AAAI 2027",
+        "source_url": "https://arxiv.org/abs/2609.32574",
+        "student_first_author": false,
+        "first_author": true
+      },
+      {
+        "title": "OP-Bench: Benchmarking Over-Personalization for Memory-Augmented Personalized Conversational Agents",
+        "authors": "Yulin Hu, Zimo Long, Jiahe Guo, Xingyu Sui, Xing Fu, Weixiang Zhao, Yanyan Zhao, Bing Qin",
+        "venue": "EMNLP 2026",
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://arxiv.org/abs/2601.13722"
+          },
+          {
+            "label": "Code",
+            "url": "https://github.com/yulinlp/OP-Bench"
+          }
+        ],
+        "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZhV-ua0AAAAJ&pagesize=100&citation_for_view=ZhV-ua0AAAAJ:_FxGoFyzp5QC",
+        "tags": [
+          {
+            "label": "Memory",
+            "style": "memory"
+          },
+          {
+            "label": "Personalization",
+            "style": "personalization"
+          },
+          {
+            "label": "Agent",
+            "style": "agent"
+          }
+        ],
+        "citations": 16,
+        "venue_type": "conference",
+        "paper_url": "https://arxiv.org/abs/2601.13722",
+        "citation_checked": "2026-09-29",
+        "distinction": "",
+        "distinction_source": "",
+        "featured_citations": false,
+        "student_first_author": false,
+        "first_author": true
+      },
+      {
+        "title": "ENPMR-Bench: Benchmarking Proactive Memory Retrieval for Emotional Support Agents",
+        "authors": "Xing Fu, Yulin Hu, Mengtong Ji, Haozhen Li, Yixin Sun, Weixiang Zhao, Yanyan Zhao, Bing Qin",
+        "venue": "ACL 2026 (Findings)",
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://aclanthology.org/2026.findings-acl.2080/"
+          }
+        ],
+        "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZhV-ua0AAAAJ&pagesize=100&citation_for_view=ZhV-ua0AAAAJ:UebtZRa9Y70C",
+        "tags": [
+          {
+            "label": "Memory",
+            "style": "memory"
+          },
+          {
+            "label": "Agent",
+            "style": "agent"
+          },
+          {
+            "label": "Emotion",
+            "style": "emotion"
+          }
+        ],
+        "citations": 1,
+        "venue_type": "conference",
+        "paper_url": "https://aclanthology.org/2026.findings-acl.2080/",
+        "citation_checked": "2026-09-29",
+        "distinction": "",
+        "distinction_source": "",
+        "featured_citations": false,
+        "student_first_author": false,
+        "first_author": false
+      },
+      {
+        "title": "SocialPersona: Benchmarking Personalized Profiling and Response with Multimodal Social-Media Context",
+        "authors": "Qinkai Zhang, Yanyan Zhao, Xin Lu, Yulin Hu, Pengtao Han, Bing Qin",
+        "venue": "arXiv 2026",
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://arxiv.org/abs/2606.26654"
+          }
+        ],
+        "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZhV-ua0AAAAJ&pagesize=100&citation_for_view=ZhV-ua0AAAAJ:0EnyYjriUFMC",
+        "tags": [
+          {
+            "label": "Multimodal",
+            "style": "multimodal"
+          },
+          {
+            "label": "Personalization",
+            "style": "personalization"
+          }
+        ],
+        "citations": 0,
+        "venue_type": "preprint",
+        "paper_url": "https://arxiv.org/abs/2606.26654",
+        "citation_checked": "2026-09-29",
+        "distinction": "",
+        "distinction_source": "",
+        "featured_citations": false,
+        "student_first_author": false,
+        "first_author": false
+      },
+      {
+        "title": "Teaching Language Models to Evolve with Users: Dynamic Profile Modeling for Personalized Alignment",
+        "authors": "Weixiang Zhao, Xingyu Sui, Yulin Hu, Jiahe Guo, Haixiao Liu, Biye Li, Yanyan Zhao, Bing Qin, Ting Liu",
+        "venue": "NeurIPS 2025",
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/2fbc1ea60e215275e823c86338417162-Abstract-Conference.html"
+          }
+        ],
+        "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZhV-ua0AAAAJ&pagesize=100&citation_for_view=ZhV-ua0AAAAJ:Tyk-4Ss8FVUC",
+        "tags": [
+          {
+            "label": "Personalization",
+            "style": "personalization"
+          },
+          {
+            "label": "Alignment",
+            "style": "alignment"
+          }
+        ],
+        "citations": 32,
+        "venue_type": "conference",
+        "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/2fbc1ea60e215275e823c86338417162-Abstract-Conference.html",
+        "citation_checked": "2026-09-29",
+        "distinction": "",
+        "distinction_source": "",
+        "featured_citations": false,
+        "student_first_author": false,
+        "co_first_author": true,
+        "first_author": false
+      }
+    ]
+  },
+  {
+    "icon": "🛡️",
+    "name": "Safety Alignment & Role-playing",
+    "id": "safety-alignment",
+    "papers": [
+      {
+        "title": "When Personalization Legitimizes Risks: Uncovering Safety Vulnerabilities in Personalized Dialogue Agents",
+        "authors": "Jiahe Guo, Xiangran Guo, Yulin Hu, Zimo Long, Xingyu Sui, Xuda Zhi, Yongbo Huang, Hao He, Weixiang Zhao, Yanyan Zhao, Bing Qin",
+        "venue": "ACL 2026",
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://aclanthology.org/2026.acl-long.1260/"
+          }
+        ],
+        "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZhV-ua0AAAAJ&pagesize=100&citation_for_view=ZhV-ua0AAAAJ:Se3iqnhoufwC",
+        "tags": [
+          {
+            "label": "Safety",
+            "style": "safety"
+          },
+          {
+            "label": "Memory",
+            "style": "memory"
+          },
+          {
+            "label": "Personalization",
+            "style": "personalization"
+          }
+        ],
+        "citations": 2,
+        "venue_type": "conference",
+        "paper_url": "https://aclanthology.org/2026.acl-long.1260/",
+        "citation_checked": "2026-09-29",
+        "distinction": "",
+        "distinction_source": "",
+        "featured_citations": false,
+        "student_first_author": false,
+        "first_author": false
+      },
+      {
+        "title": "Towards Comprehensive and Efficient Post Safety Alignment of Large Language Models via Safety Patching",
+        "authors": "Weixiang Zhao, Yulin Hu, Zhuojun Li, Yang Deng, Yanyan Zhao, Bing Qin, Tat-Seng Chua, Ting Liu",
+        "venue": "IJCAI 2026",
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://openreview.net/forum?id=09JVxsEZPf"
+          }
+        ],
+        "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZhV-ua0AAAAJ&pagesize=100&citation_for_view=ZhV-ua0AAAAJ:UeHWp8X0CEIC",
+        "tags": [
+          {
+            "label": "Safety",
+            "style": "safety"
+          },
+          {
+            "label": "Alignment",
+            "style": "alignment"
+          }
+        ],
+        "citations": 39,
+        "venue_type": "conference",
+        "paper_url": "https://openreview.net/forum?id=09JVxsEZPf",
+        "citation_checked": "2026-09-29",
+        "distinction": "",
+        "distinction_source": "",
+        "featured_citations": false,
+        "student_first_author": true,
+        "first_author": false
+      },
+      {
+        "title": "The Gains Do Not Make Up for the Losses: A Comprehensive Evaluation for Safety Alignment of Large Language Models via Machine Unlearning",
+        "authors": "Weixiang Zhao, Yulin Hu, Xingyu Sui, Zhuojun Li, Yang Deng, Yanyan Zhao, Bing Qin, Wanxiang Che",
+        "venue": "Frontiers of Computer Science 2026",
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://link.springer.com/article/10.1007/s11704-024-41099-x"
+          }
+        ],
+        "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZhV-ua0AAAAJ&pagesize=100&citation_for_view=ZhV-ua0AAAAJ:LkGwnXOMwfcC",
+        "tags": [
+          {
+            "label": "Safety",
+            "style": "safety"
+          },
+          {
+            "label": "Unlearning",
+            "style": "unlearning"
+          }
+        ],
+        "citations": 4,
+        "venue_type": "conference",
+        "paper_url": "https://link.springer.com/article/10.1007/s11704-024-41099-x",
+        "citation_checked": "2026-09-29",
+        "distinction": "",
+        "distinction_source": "",
+        "featured_citations": false,
+        "student_first_author": true,
+        "first_author": false
+      },
+      {
+        "title": "Beware of Your Po! Measuring and Mitigating AI Safety Risks in Role-Play Fine-Tuning of LLMs",
+        "authors": "Weixiang Zhao, Yulin Hu, Yang Deng, Jiahe Guo, Xingyu Sui, Xinyang Han, An Zhang, Yanyan Zhao, Bing Qin, Tat-Seng Chua, Ting Liu",
+        "venue": "ACL 2025",
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=11377&context=sis_research"
+          },
+          {
+            "label": "Code",
+            "url": "https://github.com/yulinlp/SaRFT"
+          }
+        ],
+        "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZhV-ua0AAAAJ&pagesize=100&citation_for_view=ZhV-ua0AAAAJ:ufrVoPGSRksC",
+        "tags": [
+          {
+            "label": "Safety",
+            "style": "safety"
+          },
+          {
+            "label": "Role-playing",
+            "style": "role-playing"
+          }
+        ],
+        "citations": 31,
+        "venue_type": "conference",
+        "paper_url": "https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=11377&context=sis_research",
+        "citation_checked": "2026-09-29",
+        "distinction": "",
+        "distinction_source": "",
+        "featured_citations": false,
+        "student_first_author": true,
+        "co_first_author": true,
+        "first_author": false
+      },
+      {
+        "title": "AdaSteer: Your Aligned LLM Is Inherently an Adaptive Jailbreak Defender",
+        "authors": "Weixiang Zhao, Jiahe Guo, Yulin Hu, Yang Deng, An Zhang, Xingyu Sui, Xinyang Han, Yanyan Zhao, Bing Qin, Tat-Seng Chua, Ting Liu",
+        "venue": "EMNLP 2025",
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://aclanthology.org/2025.emnlp-main.1248/"
+          },
+          {
+            "label": "Code",
+            "url": "https://github.com/MuyuenLP/AdaSteer"
+          }
+        ],
+        "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZhV-ua0AAAAJ&pagesize=100&citation_for_view=ZhV-ua0AAAAJ:d1gkVwhDpl0C",
+        "tags": [
+          {
+            "label": "Safety",
+            "style": "safety"
+          },
+          {
+            "label": "Steering",
+            "style": "steering"
+          }
+        ],
+        "citations": 34,
+        "venue_type": "conference",
+        "paper_url": "https://aclanthology.org/2025.emnlp-main.1248/",
+        "citation_checked": "2026-09-29",
+        "distinction": "Oral",
+        "distinction_source": "https://github.com/MuyuenLP/AdaSteer",
+        "featured_citations": false,
+        "student_first_author": false,
+        "first_author": false
+      },
+      {
+        "title": "MPO: Multilingual Safety Alignment via Reward Gap Optimization",
+        "authors": "Weixiang Zhao, Yulin Hu, Yang Deng, Tongtong Wu, Wenxuan Zhang, Jiahe Guo, An Zhang, Yanyan Zhao, Bing Qin, Tat-Seng Chua, Ting Liu",
+        "venue": "ACL 2025",
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://aclanthology.org/2025.acl-long.1149/"
+          },
+          {
+            "label": "Code",
+            "url": "https://github.com/circle-hit/MPO"
+          }
+        ],
+        "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZhV-ua0AAAAJ&pagesize=100&citation_for_view=ZhV-ua0AAAAJ:eQOLeE2rZwMC",
+        "tags": [
+          {
+            "label": "Multilingual",
+            "style": "multilingual"
+          },
+          {
+            "label": "Safety",
+            "style": "safety"
+          }
+        ],
+        "citations": 24,
+        "venue_type": "conference",
+        "paper_url": "https://aclanthology.org/2025.acl-long.1149/",
+        "citation_checked": "2026-09-29",
+        "distinction": "Oral & Panel · Top 0.3% of submissions",
+        "distinction_source": "https://dengyang17.github.io/research.html",
+        "featured_citations": false,
+        "student_first_author": true,
+        "first_author": false
+      }
+    ]
+  },
+  {
+    "icon": "💬",
+    "name": "Emotional Intelligence & Dialogue",
+    "id": "emotional-intelligence",
+    "papers": [
+      {
+        "title": "TEA-Bench: A Systematic Benchmarking of Tool-enhanced Emotional Support Dialogue Agent",
+        "authors": "Xingyu Sui, Yanyan Zhao, Yulin Hu, Jiahe Guo, Weixiang Zhao, Bing Qin",
+        "venue": "ACL 2026",
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://aclanthology.org/2026.acl-long.2152/"
+          }
+        ],
+        "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZhV-ua0AAAAJ&pagesize=100&citation_for_view=ZhV-ua0AAAAJ:roLk4NBRz8UC",
+        "tags": [
+          {
+            "label": "Agent",
+            "style": "agent"
+          },
+          {
+            "label": "Emotion",
+            "style": "emotion"
+          },
+          {
+            "label": "Tool Use",
+            "style": "tool-use"
+          }
+        ],
+        "citations": 3,
+        "venue_type": "conference",
+        "paper_url": "https://aclanthology.org/2026.acl-long.2152/",
+        "citation_checked": "2026-09-29",
+        "distinction": "",
+        "distinction_source": "",
+        "featured_citations": false,
+        "student_first_author": false,
+        "first_author": false
+      },
+      {
+        "title": "Chain of Strategy Optimization Makes Large Language Models Better Emotional Supporter",
+        "authors": "Weixiang Zhao, Xingyu Sui, Xinyang Han, Yang Deng, Yulin Hu, Jiahe Guo, Libo Qin, Qianyun Du, Shijin Wang, Yanyan Zhao, Bing Qin, Ting Liu",
+        "venue": "EMNLP 2025 (Findings)",
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://aclanthology.org/anthology-files/pdf/findings/2025.findings-emnlp.831.pdf"
+          },
+          {
+            "label": "Code",
+            "url": "https://github.com/XingYuSSS/CSO"
+          }
+        ],
+        "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZhV-ua0AAAAJ&pagesize=100&citation_for_view=ZhV-ua0AAAAJ:9yKSN-GCB0IC",
+        "tags": [
+          {
+            "label": "Emotion",
+            "style": "emotion"
+          },
+          {
+            "label": "Dialogue",
+            "style": "dialogue"
+          }
+        ],
+        "citations": 16,
+        "venue_type": "conference",
+        "paper_url": "https://aclanthology.org/anthology-files/pdf/findings/2025.findings-emnlp.831.pdf",
+        "citation_checked": "2026-09-29",
+        "distinction": "",
+        "distinction_source": "",
+        "featured_citations": false,
+        "student_first_author": false,
+        "first_author": false
+      },
+      {
+        "title": "Both Matter: Enhancing the Emotional Intelligence of Large Language Models without Compromising the General Intelligence",
+        "authors": "Weixiang Zhao, Zhuojun Li, Shilong Wang, Yang Wang, Yulin Hu, Yanyan Zhao, Chen Wei, Bing Qin",
+        "venue": "ACL 2024 (Findings)",
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://aclanthology.org/2024.findings-acl.665/"
+          }
+        ],
+        "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZhV-ua0AAAAJ&pagesize=100&citation_for_view=ZhV-ua0AAAAJ:u-x6o8ySG0sC",
+        "tags": [
+          {
+            "label": "Emotion",
+            "style": "emotion"
+          },
+          {
+            "label": "Alignment",
+            "style": "alignment"
+          }
+        ],
+        "citations": 26,
+        "venue_type": "conference",
+        "paper_url": "https://aclanthology.org/2024.findings-acl.665/",
+        "citation_checked": "2026-09-29",
+        "distinction": "",
+        "distinction_source": "",
+        "featured_citations": false,
+        "student_first_author": false,
+        "first_author": false
+      }
+    ]
+  },
+  {
+    "icon": "🎯",
+    "name": "Reasoning & Efficiency",
+    "id": "reasoning-efficiency",
+    "papers": [
+      {
+        "title": "Trade-offs in Large Reasoning Models: An Empirical Analysis of Deliberative and Adaptive Reasoning over Foundational Capabilities",
+        "authors": "Weixiang Zhao, Xingyu Sui, Jiahe Guo, Yulin Hu, Yang Deng, Yanyan Zhao, Xuda Zhi, Yongbo Huang, Hao He, Wanxiang Che, Ting Liu, Bing Qin",
+        "venue": "AAAI 2026",
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/view/40802"
+          },
+          {
+            "label": "Code",
+            "url": "https://github.com/SCIR-SC-Qiaoban-Team/FreeEvalLM"
+          }
+        ],
+        "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZhV-ua0AAAAJ&pagesize=100&citation_for_view=ZhV-ua0AAAAJ:2osOgNQ5qMEC",
+        "tags": [
+          {
+            "label": "Reasoning",
+            "style": "reasoning"
+          },
+          {
+            "label": "Evaluation",
+            "style": "evaluation"
+          }
+        ],
+        "citations": 27,
+        "venue_type": "conference",
+        "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40802",
+        "citation_checked": "2026-09-29",
+        "distinction": "",
+        "distinction_source": "",
+        "featured_citations": false,
+        "student_first_author": false,
+        "co_first_author": true,
+        "first_author": false
+      },
+      {
+        "title": "Exploring and Exploiting the Inherent Efficiency within Large Reasoning Models for Self-Guided Efficiency Enhancement",
+        "authors": "Weixiang Zhao, Jiahe Guo, Yang Deng, Xingyu Sui, Yulin Hu, Yanyan Zhao, Wanxiang Che, Bing Qin, Tat-Seng Chua, Ting Liu",
+        "venue": "arXiv 2025",
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://arxiv.org/abs/2506.15647"
+          }
+        ],
+        "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZhV-ua0AAAAJ&pagesize=100&citation_for_view=ZhV-ua0AAAAJ:YsMSGLbcyi4C",
+        "tags": [
+          {
+            "label": "Reasoning",
+            "style": "reasoning"
+          },
+          {
+            "label": "Efficiency",
+            "style": "efficiency"
+          }
+        ],
+        "citations": 12,
+        "venue_type": "preprint",
+        "paper_url": "https://arxiv.org/abs/2506.15647",
+        "citation_checked": "2026-09-29",
+        "distinction": "",
+        "distinction_source": "",
+        "featured_citations": false,
+        "student_first_author": false,
+        "first_author": false
+      }
+    ]
+  },
+  {
+    "icon": "🌏",
+    "name": "Multilingual Modelling & Reasoning",
+    "id": "multilingual-modelling",
+    "papers": [
+      {
+        "title": "When Less Language Is More: Language-Reasoning Disentanglement Makes LLMs Better Multilingual Reasoners",
+        "authors": "Weixiang Zhao, Jiahe Guo, Yang Deng, Tongtong Wu, Wenxuan Zhang, Yulin Hu, Xingyu Sui, Yanyan Zhao, Wanxiang Che, Bing Qin, Tat-Seng Chua, Ting Liu",
+        "venue": "NeurIPS 2025",
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/372bd0e47f2d5bceca7e300e1446849c-Abstract-Conference.html"
+          }
+        ],
+        "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZhV-ua0AAAAJ&pagesize=100&citation_for_view=ZhV-ua0AAAAJ:WF5omc3nYNoC",
+        "tags": [
+          {
+            "label": "Multilingual",
+            "style": "multilingual"
+          },
+          {
+            "label": "Reasoning",
+            "style": "reasoning"
+          }
+        ],
+        "citations": 14,
+        "venue_type": "conference",
+        "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/372bd0e47f2d5bceca7e300e1446849c-Abstract-Conference.html",
+        "citation_checked": "2026-09-29",
+        "distinction": "Spotlight",
+        "distinction_source": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=ZhV-ua0AAAAJ&pagesize=100&citation_for_view=ZhV-ua0AAAAJ:WF5omc3nYNoC",
+        "featured_citations": false,
+        "student_first_author": false,
+        "first_author": false
+      },
+      {
+        "title": "LENS: Rethinking Multilingual Enhancement for Large Language Models",
+        "authors": "Weixiang Zhao, Yulin Hu, Jiahe Guo, Xingyu Sui, Tongtong Wu, Yang Deng, Yanyan Zhao, Bing Qin, Wanxiang Che, Ting Liu",
+        "venue": "arXiv 2024",
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://arxiv.org/abs/2410.04407"
+          },
+          {
+            "label": "Code",
+            "url": "https://github.com/circle-hit/Lens"
+          }
+        ],
+        "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZhV-ua0AAAAJ&pagesize=100&citation_for_view=ZhV-ua0AAAAJ:u5HHmVD_uO8C",
+        "tags": [
+          {
+            "label": "Multilingual",
+            "style": "multilingual"
+          }
+        ],
+        "citations": 10,
+        "venue_type": "preprint",
+        "paper_url": "https://arxiv.org/abs/2410.04407",
+        "citation_checked": "2026-09-29",
+        "distinction": "",
+        "distinction_source": "",
+        "featured_citations": false,
+        "student_first_author": true,
+        "first_author": false
+      }
+    ]
+  },
+  {
+    "icon": "📚",
+    "name": "Continual Learning",
+    "id": "continual-learning",
+    "papers": [
+      {
+        "title": "SAPT: A Shared Attention Framework for Parameter-Efficient Continual Learning of Large Language Models",
+        "authors": "Weixiang Zhao, Shilong Wang, Yulin Hu, Yanyan Zhao, Bing Qin, Xuanyu Zhang, Qing Yang, Dongliang Xu, Wanxiang Che",
+        "venue": "ACL 2024",
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://aclanthology.org/2024.acl-long.625/"
+          },
+          {
+            "label": "Code",
+            "url": "https://github.com/circle-hit/SAPT"
+          }
+        ],
+        "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZhV-ua0AAAAJ&pagesize=100&citation_for_view=ZhV-ua0AAAAJ:zYLM7Y9cAGgC",
+        "tags": [
+          {
+            "label": "Continual Learning",
+            "style": "continual-learning"
+          },
+          {
+            "label": "Efficiency",
+            "style": "efficiency"
+          }
+        ],
+        "citations": 107,
+        "venue_type": "conference",
+        "paper_url": "https://aclanthology.org/2024.acl-long.625/",
+        "citation_checked": "2026-09-29",
+        "distinction": "",
+        "distinction_source": "",
+        "featured_citations": true,
+        "student_first_author": false,
+        "first_author": false
+      }
+    ]
+  }
+]

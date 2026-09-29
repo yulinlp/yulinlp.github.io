@@ -1,69 +1,78 @@
 ---
 permalink: /
-title: "**Yulin Hu** 胡雨林"
-excerpt: "About me"
+title: "Yulin Hu · 胡雨林"
+excerpt: "Yulin Hu, master's student at Harbin Institute of Technology. Research on long-term agent memory, personalization, and safe language models."
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
-# **Yulin Hu** **胡雨林**
-Hello, I am a master's student at the Research Center for Social Computing and Information Retrieval (SCIR) at Harbin Institute of Technology (HIT), China. I am advised by [Prof. Yanyan Zhao](http://ir.hit.edu.cn/~yanyan/). My current research primarily focuses on the development and implementation of Socially-Responsible AI, with particular attention to its applications in:
+<h1 id="about">Yulin Hu <span class="chinese-name" lang="zh-CN">胡雨林</span></h1>
 
-- Personalized & Emotional Dialogue Systems
-- Safety Alignment
-- Reasoning Enhancement
-- Multilingual Enhancement
+Hello! I am a master's student in Computer Science and Technology at [Harbin Institute of Technology](https://www.hit.edu.cn/), in the **Sentiment Computing (SC) group** of [SCIR](https://ir.hit.edu.cn/) (Research Center for Social Computing and Interactive Robotics). I am advised by [Prof. Yanyan Zhao](http://ir.hit.edu.cn/~yanyan/) and co-advised by [Prof. Weixiang Zhao](https://circle-hit.github.io/). I am currently a research intern at **Huawei Consumer Business Group (终端 BG)**.
 
-## Education
+My research focuses on **long-term memory for multimodal agents**: how agents store, maintain, retrieve, and use information across sustained interactions. I also work on **personalized and empathetic dialogue**, **safety alignment**, and **reasoning in large language models**.
 
-- Sept 2025 - . A master's student in [SCIR](http://ir.hit.edu.cn), Dept. of Computer Science and Technology, [Harbin Institute of Technology](http://www.hit.edu.cn). Advisor: [Prof. Yanyan Zhao](http://ir.hit.edu.cn/~yanyan/).
-- Sept 2021 - Jul 2025. B.Sc. in School of Future Technology, [Harbin Institute of Technology](https://www.hit.edu.cn/).
+I am interested in building agents that understand users over time and use memory when it is relevant and helpful. Feel free to reach out at [ylhu@ir.hit.edu.cn](mailto:ylhu@ir.hit.edu.cn).
 
-## Main Publications
+<h2 id="news">🔥 News</h2>
 
-### Personalized & Emotional Dialogue Systems
+- **Sept. 2026** · [CUE-Mem](https://arxiv.org/abs/2609.32574), our benchmark for long-term user memory from implicit multimodal cues, is now available on arXiv. Submitted to **AAAI 2027**.
 
-- <span class="conference-tag">NeurIPS 2025</span> Weixiang Zhao\*, Xingyu Sui\*, **Yulin Hu**\*, Jiahe Guo, Haixiao Liu, Biye Li, Yanyan Zhao, Bing Qin, Ting Liu. *Teaching Language Models to Evolve with Users: Dynamic Profile Modeling for Personalized Alignment.* [[paper]](https://arxiv.org/pdf/2505.15456)
+- **2026** · [OP-Bench](https://arxiv.org/abs/2601.13722), our work on over-personalization in memory-augmented conversational agents, is accepted to **EMNLP 2026**.
+- **2026** · Our work on proactive memory retrieval, tool-enhanced emotional support, and personalized-agent safety appears at **ACL 2026 / Findings**.
+- **2025** · I started my master's studies at Harbin Institute of Technology.
 
-- <span class="conference-tag">EMNLP 2025 (Findings)</span> Weixiang Zhao\*, Xingyu Sui\*, Xinyang Han, Yang Deng, **Yulin Hu**, Jiahe Guo, Libo Qin, Qianyun Du, Shijin Wang, Yanyan Zhao, Bing Qin, Ting Liu. *Chain of Strategy Optimization Makes Large Language Models Better Emotional Supporter.* [[paper]](https://arxiv.org/pdf/2503.05362) [[repo]](https://github.com/XingYuSSS/CSO)
+<div class="publications-heading" id="publications">
+<h2>📝 Publications</h2>
+<div class="citation-stat" aria-label="{{ site.data.scholar_metrics.total_citations }} total citations"><strong>{{ site.data.scholar_metrics.total_citations }}</strong><span>Citations</span></div>
+</div>
 
-- <span class="conference-tag">ACL 2024 (Main)</span> Weixiang Zhao, Shilong Wang, **Yulin Hu**, Yanyan Zhao, Bing Qin, Xuanyu Zhang, Qing Yang, Dongliang Xu, Wanxiang Che. *SAPT: A Shared Attention Framework for Parameter-Efficient Continual Learning of Large Language Models.* <u>ACL 2024 (Main)</u>. [[paper]](https://arxiv.org/abs/2401.08295) [[repo]](https://github.com/circle-hit/SAPT)
+<nav class="topic-index" aria-label="Publication topics">
+{% for group in site.data.publications %}<a href="#{{ group.id }}">{{ group.icon }} {{ group.name }}</a>{% endfor %}
+</nav>
 
-- <span class="conference-tag">ACL 2024 (Findings)</span> Weixiang Zhao, Zhuojun Li, Shilong Wang, Yang Wang, **Yulin Hu**, Yanyan Zhao, Chen Wei, Bing Qin. *Both Matter: Enhancing the Emotional Intelligence of Large Language Models without Compromising the General Intelligence.* <u>ACL 2024 (Findings)</u>. [[paper]](https://arxiv.org/abs/2402.10073)
+{% for group in site.data.publications %}
+<section class="publication-topic" aria-labelledby="{{ group.id }}">
+<h3 id="{{ group.id }}">{{ group.icon }} {{ group.name }}</h3>
+<ul class="publication-list">
+{% for paper in group.papers %}
+<li class="publication-entry">
+{% if paper.distinction != empty %}<span aria-hidden="true">🏆</span> {% elsif paper.featured_citations %}<span aria-hidden="true">🔥</span> {% endif %}<span class="{{ paper.venue_type }}-tag">{{ paper.venue | escape }}</span>
+{% if paper.distinction != empty %}<a class="paper-distinction" href="{{ paper.distinction_source | escape }}">({{ paper.distinction | escape }})</a>{% endif %}
+{% if paper.submission_status %}<span class="submission-status">({{ paper.submission_status | escape }})</span>{% endif %}
+<a class="paper-title" href="{{ paper.paper_url | escape }}">{{ paper.title | escape }}</a>,
+<span class="paper-authors">{% assign author_names = paper.authors | split: ', ' %}{% assign before_yulin = true %}{% for author_name in author_names %}{% if author_name == 'Yulin Hu' %}<strong>{{ author_name | escape }}{% if paper.co_first_author %}<sup title="Co-first author">*</sup>{% endif %}</strong>{% assign before_yulin = false %}{% else %}{{ author_name | escape }}{% if paper.co_first_author and before_yulin %}<sup title="Co-first author">*</sup>{% endif %}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}.</span>
+{% if paper.co_first_author %}<span class="student-first-tag">Co-first Author</span> {% elsif paper.first_author %}<span class="student-first-tag">First Author</span> {% elsif paper.student_first_author %}<span class="student-first-tag">Student First Author</span> {% endif %}
+{% for tag in paper.tags %}<span class="topic-tag tag-{{ tag.style }}">{{ tag.label }}</span> {% endfor %}
+{% for link in paper.links %}{% unless link.label == 'Paper' %}<a class="paper-resource" href="{{ link.url | escape }}">[{{ link.label }}]</a> {% endunless %}{% endfor %}
+{% if paper.citations and paper.citations > 0 %}<a class="citation-count{% if paper.featured_citations %} citation-highlight{% endif %}" href="{{ paper.scholar_url | escape }}" title="Google Scholar citations, checked {{ paper.citation_checked }}">{% if paper.featured_citations %}🔥 {% endif %}Citations: {{ paper.citations }}</a>{% endif %}
+</li>
+{% endfor %}
+</ul>
+</section>
+{% endfor %}
 
+<h2 id="projects">🛠️ Selected Projects</h2>
 
-### Safety Alignment
-- <span class="conference-tag">ACL 2025 (Main)</span> Weixiang Zhao\*, **Yulin Hu**\*, Yang Deng, Jiahe Guo, Xingyu Sui, Xinyang Han, An Zhang, Yanyan Zhao, Bing Qin, Tat-Seng Chua, Ting Liu. *Beware of Your Po! Measuring and Mitigating AI Safety Risks in Role-Play Fine-Tuning of LLMs.* [[paper]](https://arxiv.org/pdf/2502.20968) [[repo]](https://github.com/yulinlp/SaRFT)
+- **[QiaoBan (巧板)](https://github.com/HIT-SCIR-SC/QiaoBan)** — Core developer of a personalized, empathetic conversational model for children and adolescents. [Official news: QiaoBan-P1 release](https://ir.hit.edu.cn/2025/0626/c19589a372759/page.htm) (June 2025).
+- **HIT AI Counselor (工小星)** — Core project lead and developer of a campus assistant combining university knowledge retrieval and empathetic dialogue. [Project news: official launch](https://ir.hit.edu.cn/2025/0806/c19589a376151/page.htm) (August 2025).
 
-- 🏆 <span class="conference-tag">ACL 2025 </span><span style="color:red">(Main, 🌟Oral & Panel - Top 0.3% of Submissions)</span>  Weixiang Zhao, **Yulin Hu**, Yang Deng, Tongtong Wu, Wenxuan Zhang, Jiahe Guo, An Zhang, Yanyan Zhao, Bing Qin, Tat-Seng Chua, Ting Liu. *MPO: Multilingual Safety Alignment via Reward Gap Optimization.* [[paper]](https://arxiv.org/pdf/2505.16869?) [[repo]](https://github.com/circle-hit/MPO)
+<h2 id="education">🎓 Education</h2>
 
-- 🏆 <span class="conference-tag">EMNLP 2025 </span><span style="color:red">(Main, Oral)</span>  Weixiang Zhao\*, Jiahe Guo\*, **Yulin Hu**, Yang Deng, An Zhang, Xingyu Sui, Xinyang Han, Yanyan Zhao, Bing Qin, Tat-Seng Chua, Ting Liu. *AdaSteer: Your Aligned LLM is Inherently an Adaptive Jailbreak Defender.* [[paper]](https://arxiv.org/abs/2504.09466) [[repo]](https://github.com/MuyuenLP/AdaSteer)
+- **Sept. 2025 – Present** · Master's student in Computer Science and Technology, **Harbin Institute of Technology**. Advisor: Prof. Yanyan Zhao.
+- **Sept. 2021 – June 2025** · Bachelor’s degree in Computer Science and Technology, School of Future Technology, **Harbin Institute of Technology**.
 
-- <span class="conference-tag">arXiv:2405.13820</span> Weixiang Zhao, **Yulin Hu**, Zhuojun Li, Yang Deng, Jiahe Guo, Xingyu Sui, Yanyan Zhao, Bing Qin, Tat-Seng Chua, Ting Liu. *Towards Comprehensive Post Safety Alignment of Large Language Models via Safety Patching.* [[paper]](https://arxiv.org/abs/2405.13820)
+<h2 id="experience">💻 Research Experience</h2>
 
+- **Huawei Consumer Business Group (终端 BG)** · Research Intern · **June 2026 – Present**.
+- **Du Xiaoman Financial Technology** · Research Intern · **Dec. 2024 – Mar. 2025**. Research on empathetic and role-based conversational language models.
 
-### Reasoning Enhancement
+<h2 id="honors">🎖️ Honors & Awards</h2>
 
-- <span class="conference-tag">arXiv:2503.17979</span> Weixiang Zhao\*, Xingyu Sui\*, Jiahe Guo\*, **Yulin Hu**\*, Yang Deng, Yanyan Zhao, Bing Qin, Wanxiang Che, Tat-Seng Chua, Ting Liu. *Trade-offs in Large Reasoning Models: An Empirical Analysis of Deliberative and Adaptive Reasoning over Foundational Capabilities*. [[paper]](https://arxiv.org/pdf/2503.17979) [[repo]](https://github.com/SCIR-SC-Qiaoban-Team/FreeEvalLM)
+- **Special-class Graduate Academic Scholarship**, Harbin Institute of Technology, 2025 & 2026.
+- **Outstanding Undergraduate Thesis**, Harbin Institute of Technology, 2025.
+- **Wentian Scholarship**, Harbin Institute of Technology, annually from **2021 to 2025**.
+- **Innovation and Entrepreneurship Scholarship**, Harbin Institute of Technology, annually from **2021 to 2025**.
 
-- 🏆 <span class="conference-tag">NeurIPS 2025 </span><span style="color:red">(🌟Spotlight - Top 3.2% of Submissions)</span>  Weixiang Zhao, Jiahe Guo, Yang Deng, Tongtong Wu, Wenxuan Zhang, **Yulin Hu**, Xingyu Sui, Yanyan Zhao, Wanxiang Che, Bing Qin, Tat-Seng Chua, Ting Liu. *When Less Language is More: Language-Reasoning Disentanglement Makes LLMs Better Multilingual Reasoners.* [[paper]](https://arxiv.org/pdf/2505.15257)
-
-- <span class="conference-tag">arXiv:2506.15647</span> Weixiang Zhao, Jiahe Guo, Yang Deng, Xingyu Sui, **Yulin Hu**, Yanyan Zhao, Wanxiang Che, Bing Qin, Tat-Seng Chua, Ting Liu. *Exploring and Exploiting the Inherent Efficiency within Large Reasoning Models for Self-Guided Efficiency Enhancement*. [[paper]](https://arxiv.org/pdf/2506.15647?)
-
-
-### Multilingual Enhancement
-
-- 🏆 <span class="conference-tag">NeurIPS 2025 </span><span style="color:red">(🌟Spotlight - Top 3.2% of Submissions)</span>  Weixiang Zhao, Jiahe Guo, Yang Deng, Tongtong Wu, Wenxuan Zhang, **Yulin Hu**, Xingyu Sui, Yanyan Zhao, Wanxiang Che, Bing Qin, Tat-Seng Chua, Ting Liu. *When Less Language is More: Language-Reasoning Disentanglement Makes LLMs Better Multilingual Reasoners.* [[paper]](https://arxiv.org/pdf/2505.15257)
-
-- 🏆 <span class="conference-tag">ACL 2025 </span><span style="color:red">(Main, 🌟Oral & Panel - Top 0.3% of Submissions)</span>  Weixiang Zhao, **Yulin Hu**, Yang Deng, Tongtong Wu, Wenxuan Zhang, Jiahe Guo, An Zhang, Yanyan Zhao, Bing Qin, Tat-Seng Chua, Ting Liu. *MPO: Multilingual Safety Alignment via Reward Gap Optimization.*
-
-- <span class="conference-tag">ACL 2025 (Findings)</span> Weixiang Zhao, **Yulin Hu**, Jiahe Guo, Xingyu Sui, Tongtong Wu, Yang Deng, Yanyan Zhao, Bing Qin, Wanxiang Che, Ting Liu. *Lens: Rethinking Multilingual Enhancement for Large Language Models.* [[paper]](https://arxiv.org/pdf/2410.04407) [[repo]](https://github.com/circle-hit/Lens)
-
-
-## Internships
-- Dec 2024 - April 2025. Research Intern. Du Xiaoman (Beijing) Science Technology Co., Ltd, Beijing, China. Supervisor: Dr. Biye Li.
-  
-
-## Selected Awards and Honors
-- Excellent Thesis, Harbin Institute of Technology, 2025
+<footer class="site-credit">Last updated: September 2026 · Built with <a href="https://github.com/RayeRen/acad-homepage.github.io">AcadHomepage</a>, following <a href="https://lightchen233.github.io/">Qiguang Chen's homepage</a>.</footer>
