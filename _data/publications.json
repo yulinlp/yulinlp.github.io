@@ -237,6 +237,10 @@
           {
             "label": "Paper",
             "url": "https://openreview.net/forum?id=09JVxsEZPf"
+          },
+          {
+            "label": "arXiv",
+            "url": "https://arxiv.org/abs/2405.13820"
           }
         ],
         "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZhV-ua0AAAAJ&pagesize=100&citation_for_view=ZhV-ua0AAAAJ:UeHWp8X0CEIC",
@@ -298,7 +302,7 @@
         "links": [
           {
             "label": "Paper",
-            "url": "https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=11377&context=sis_research"
+            "url": "https://aclanthology.org/2025.acl-long.544/"
           },
           {
             "label": "Code",
@@ -318,7 +322,7 @@
         ],
         "citations": 31,
         "venue_type": "conference",
-        "paper_url": "https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=11377&context=sis_research",
+        "paper_url": "https://aclanthology.org/2025.acl-long.544/",
         "citation_checked": "2026-09-29",
         "distinction": "",
         "distinction_source": "",
@@ -446,7 +450,7 @@
         "links": [
           {
             "label": "Paper",
-            "url": "https://aclanthology.org/anthology-files/pdf/findings/2025.findings-emnlp.831.pdf"
+            "url": "https://aclanthology.org/2025.findings-emnlp.831/"
           },
           {
             "label": "Code",
@@ -466,7 +470,7 @@
         ],
         "citations": 16,
         "venue_type": "conference",
-        "paper_url": "https://aclanthology.org/anthology-files/pdf/findings/2025.findings-emnlp.831.pdf",
+        "paper_url": "https://aclanthology.org/2025.findings-emnlp.831/",
         "citation_checked": "2026-09-29",
         "distinction": "",
         "distinction_source": "",

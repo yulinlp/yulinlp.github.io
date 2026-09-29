@@ -9,7 +9,7 @@ redirect_from:
 ---
 <h1 id="about">Yulin Hu <span class="chinese-name" lang="zh-CN">胡雨林</span></h1>
 
-Hello! I am a master's student in Computer Science and Technology at [Harbin Institute of Technology](https://www.hit.edu.cn/), in the **Sentiment Computing (SC) group** of [SCIR](https://ir.hit.edu.cn/) (Research Center for Social Computing and Interactive Robotics). I am advised by [Prof. Yanyan Zhao](http://ir.hit.edu.cn/~yanyan/) and co-advised by [Prof. Weixiang Zhao](https://circle-hit.github.io/). I am currently a research intern at **Huawei Consumer Business Group (终端 BG)**.
+Hello! I am a master's student in Computer Science and Technology at [Harbin Institute of Technology](https://www.hit.edu.cn/), in the **Sentiment Computing (SC) group** of [SCIR](https://ir.hit.edu.cn/) (Research Center for Social Computing and Interactive Robotics). I am advised by [Prof. Yanyan Zhao](https://homepage.hit.edu.cn/yanyan?lang=zh) and co-advised by [Prof. Weixiang Zhao](https://circle-hit.github.io/). I am currently a research intern at **Huawei Consumer Business Group (终端 BG)**.
 
 My research focuses on **long-term memory for multimodal agents**: how agents store, maintain, retrieve, and use information across sustained interactions. I also work on **personalized and empathetic dialogue**, **safety alignment**, and **reasoning in large language models**.
 
