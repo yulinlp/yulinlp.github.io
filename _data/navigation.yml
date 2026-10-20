@@ -5,7 +5,7 @@ main:
     url: "/#news"
   - title: "Publications"
     url: "/#publications"
-  - title: "Projects"
+  - title: "Applications"
     url: "/#projects"
   - title: "Education"
     url: "/#education"
