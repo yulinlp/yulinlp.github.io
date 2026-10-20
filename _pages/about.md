@@ -71,7 +71,7 @@ I am interested in building agents that understand users over time and use memor
 <h2 id="honors">🎖️ Honors & Awards</h2>
 
 - **National Scholarship for Graduate Students**, Harbin Institute of Technology, 2026.
-- **University-level Model Student (校级优秀标兵)**, Harbin Institute of Technology, 2026.
+- **University-level Outstanding Student Role Model (校级优秀学生标兵)**, Harbin Institute of Technology, 2026.
 - **Special-class Graduate Academic Scholarship**, Harbin Institute of Technology, 2025 & 2026.
 - **Outstanding Undergraduate Thesis**, Harbin Institute of Technology, 2025.
 - **Wentian Scholarship** (college-level), Harbin Institute of Technology, **four consecutive years**.
