@@ -24,6 +24,7 @@ a:hover { color: #175b87; }
 .paper-distinction { color: #c52932; font-weight: 600; text-decoration: none; }
 .paper-distinction:hover { color: #a11521; text-decoration: underline; }
 .topic-tag { display: inline; border-radius: 4px; padding: 2px 6px; font-size: .82em; white-space: nowrap; color: #fff; }
+.tag-retrieval { background: #315ea8; }
 .tag-memory { background: #247e95; }
 .tag-agent { background: #277e7e; }
 .tag-personalization { background: #9560a8; }
