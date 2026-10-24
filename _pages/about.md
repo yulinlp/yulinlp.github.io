@@ -17,7 +17,9 @@ I am interested in building agents that understand users over time and use memor
 
 <h2 id="news">🔥 News</h2>
 
-- **Sept. 2026** · [CUE-Mem](https://arxiv.org/abs/2609.32574), our benchmark for long-term user memory from implicit multimodal cues, is now available on arXiv. Submitted to **AAAI 2027**.
+- **Oct. 2026** · [SC-Embedding](https://github.com/yulinlp/SC-Embedding) is under review at **WWW 2027**, and [How Do Language Models Use Memory?](https://github.com/yulinlp/How-LLMs-Use-Memory) is under review at **ICLR 2027**. Code is available for both projects.
+
+- **Sept. 2026** · [CUE-Mem](https://arxiv.org/abs/2609.32574), our benchmark for long-term user memory from implicit multimodal cues, is now available on arXiv. Under review at **AAAI 2027**.
 
 - **2026** · [OP-Bench](https://arxiv.org/abs/2601.13722), our work on over-personalization in memory-augmented conversational agents, is accepted to **EMNLP 2026**.
 - **2026** · Our work on proactive memory retrieval, tool-enhanced emotional support, and personalized-agent safety appears at **ACL 2026 / Findings**.
@@ -41,8 +43,8 @@ I am interested in building agents that understand users over time and use memor
 {% if paper.distinction != empty %}<span aria-hidden="true">🏆</span> {% elsif paper.featured_citations %}<span aria-hidden="true">🔥</span> {% endif %}<span class="{{ paper.venue_type }}-tag">{{ paper.venue | escape }}</span>
 {% if paper.distinction != empty %}<a class="paper-distinction" href="{{ paper.distinction_source | escape }}">({{ paper.distinction | escape }})</a>{% endif %}
 {% if paper.submission_status %}<span class="submission-status">({{ paper.submission_status | escape }})</span>{% endif %}
-<a class="paper-title" href="{{ paper.paper_url | escape }}">{{ paper.title | escape }}</a>,
-<span class="paper-authors">{% assign author_names = paper.authors | split: ', ' %}{% assign before_yulin = true %}{% for author_name in author_names %}{% if author_name == 'Yulin Hu' %}<strong>{{ author_name | escape }}{% if paper.co_first_author %}<sup title="Co-first author">*</sup>{% endif %}</strong>{% assign before_yulin = false %}{% else %}{{ author_name | escape }}{% if paper.co_first_author and before_yulin %}<sup title="Co-first author">*</sup>{% endif %}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}.</span>
+<a class="paper-title" href="{{ paper.paper_url | escape }}">{{ paper.title | escape }}</a>{% if paper.authors != empty %},
+<span class="paper-authors">{% assign author_names = paper.authors | split: ', ' %}{% assign before_yulin = true %}{% for author_name in author_names %}{% if author_name == 'Yulin Hu' %}<strong>{{ author_name | escape }}{% if paper.co_first_author %}<sup title="Co-first author">*</sup>{% endif %}</strong>{% assign before_yulin = false %}{% else %}{{ author_name | escape }}{% if paper.co_first_author and before_yulin %}<sup title="Co-first author">*</sup>{% endif %}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}.</span>{% endif %}
 {% if paper.co_first_author %}<span class="student-first-tag">Co-first Author</span> {% elsif paper.first_author %}<span class="student-first-tag">First Author</span> {% elsif paper.student_first_author %}<span class="student-first-tag">Student First Author</span> {% endif %}
 {% for tag in paper.tags %}<span class="topic-tag tag-{{ tag.style }}">{{ tag.label }}</span> {% endfor %}
 {% for link in paper.links %}{% unless link.label == 'Paper' %}<a class="paper-resource" href="{{ link.url | escape }}">[{{ link.label }}]</a> {% endunless %}{% endfor %}

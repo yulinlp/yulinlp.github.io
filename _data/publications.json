@@ -5,9 +5,71 @@
     "id": "memory-personalization",
     "papers": [
       {
+        "authors": "",
+        "venue_type": "preprint",
+        "distinction": "",
+        "distinction_source": "",
+        "featured_citations": false,
+        "submission_status": "Under Review",
+        "student_first_author": false,
+        "first_author": false,
+        "title": "SC-Embedding: Selective Contextualization for Long-Context Retrieval",
+        "venue": "WWW 2027",
+        "paper_url": "https://github.com/yulinlp/SC-Embedding",
+        "links": [
+          {
+            "label": "Code",
+            "url": "https://github.com/yulinlp/SC-Embedding"
+          },
+          {
+            "label": "Models",
+            "url": "https://huggingface.co/linlp22/SC-Embedding-4B"
+          }
+        ],
+        "tags": [
+          {
+            "label": "Memory",
+            "style": "memory"
+          },
+          {
+            "label": "Retrieval",
+            "style": "retrieval"
+          }
+        ]
+      },
+      {
+        "authors": "",
+        "venue_type": "preprint",
+        "distinction": "",
+        "distinction_source": "",
+        "featured_citations": false,
+        "submission_status": "Under Review",
+        "student_first_author": false,
+        "first_author": false,
+        "title": "How Do Language Models Use Memory? From Internal Strategy Readout to Adaptive Control",
+        "venue": "ICLR 2027",
+        "paper_url": "https://github.com/yulinlp/How-LLMs-Use-Memory",
+        "links": [
+          {
+            "label": "Code",
+            "url": "https://github.com/yulinlp/How-LLMs-Use-Memory"
+          }
+        ],
+        "tags": [
+          {
+            "label": "Memory",
+            "style": "memory"
+          },
+          {
+            "label": "Steering",
+            "style": "steering"
+          }
+        ]
+      },
+      {
         "title": "CUE-Mem: Benchmarking Long-Term User Memory via Implicit Cues in Multimodal Conversations",
         "authors": "Yulin Hu, Yanyan Zhao, Zimo Long, Xing Fu, Mengtong Ji, Weixiang Zhao, Yutai Hou, Qianchao Wang, Dandan Tu",
-        "venue": "arXiv 2026",
+        "venue": "AAAI 2027",
         "venue_type": "preprint",
         "paper_url": "https://arxiv.org/abs/2609.32574",
         "links": [
@@ -45,7 +107,7 @@
         "distinction": "",
         "distinction_source": "",
         "featured_citations": false,
-        "submission_status": "Submitted to AAAI 2027",
+        "submission_status": "Under Review",
         "source_url": "https://arxiv.org/abs/2609.32574",
         "student_first_author": false,
         "first_author": true,
