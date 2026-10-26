@@ -5,14 +5,14 @@
     "id": "memory-personalization",
     "papers": [
       {
-        "authors": "",
+        "authors": "Yulin Hu, Yanyan Zhao, Zimo Long, Xing Fu, Xingyu Sui, Jiahe Guo, Weixiang Zhao, Bing Qin",
         "venue_type": "preprint",
         "distinction": "",
         "distinction_source": "",
         "featured_citations": false,
         "submission_status": "Under Review",
         "student_first_author": false,
-        "first_author": false,
+        "first_author": true,
         "title": "SC-Embedding: Selective Contextualization for Long-Context Retrieval",
         "venue": "WWW 2027",
         "paper_url": "https://github.com/yulinlp/SC-Embedding",
@@ -38,14 +38,14 @@
         ]
       },
       {
-        "authors": "",
+        "authors": "Yulin Hu, Yanyan Zhao, Zimo Long, Jiahe Guo, Xingyu Sui, Xing Fu, Yutai Hou, Qianchao Wang, XIAO ZHAO, Dandan Tu, Weixiang Zhao, Bing Qin",
         "venue_type": "preprint",
         "distinction": "",
         "distinction_source": "",
         "featured_citations": false,
         "submission_status": "Under Review",
         "student_first_author": false,
-        "first_author": false,
+        "first_author": true,
         "title": "How Do Language Models Use Memory? From Internal Strategy Readout to Adaptive Control",
         "venue": "ICLR 2027",
         "paper_url": "https://github.com/yulinlp/How-LLMs-Use-Memory",
