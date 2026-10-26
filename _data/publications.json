@@ -92,16 +92,16 @@
         ],
         "tags": [
           {
+            "label": "Benchmark",
+            "style": "benchmark"
+          },
+          {
             "label": "Memory",
             "style": "memory"
           },
           {
             "label": "Multimodal",
             "style": "multimodal"
-          },
-          {
-            "label": "Agent",
-            "style": "agent"
           }
         ],
         "distinction": "",
@@ -132,16 +132,16 @@
         "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZhV-ua0AAAAJ&pagesize=100&citation_for_view=ZhV-ua0AAAAJ:_FxGoFyzp5QC",
         "tags": [
           {
+            "label": "Benchmark",
+            "style": "benchmark"
+          },
+          {
             "label": "Memory",
             "style": "memory"
           },
           {
             "label": "Personalization",
             "style": "personalization"
-          },
-          {
-            "label": "Agent",
-            "style": "agent"
           }
         ],
         "citations": 22,
@@ -167,12 +167,12 @@
         "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZhV-ua0AAAAJ&pagesize=100&citation_for_view=ZhV-ua0AAAAJ:UebtZRa9Y70C",
         "tags": [
           {
-            "label": "Memory",
-            "style": "memory"
+            "label": "Benchmark",
+            "style": "benchmark"
           },
           {
-            "label": "Agent",
-            "style": "agent"
+            "label": "Memory",
+            "style": "memory"
           },
           {
             "label": "Emotion",
@@ -201,6 +201,10 @@
         ],
         "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZhV-ua0AAAAJ&pagesize=100&citation_for_view=ZhV-ua0AAAAJ:0EnyYjriUFMC",
         "tags": [
+          {
+            "label": "Benchmark",
+            "style": "benchmark"
+          },
           {
             "label": "Multimodal",
             "style": "multimodal"
@@ -272,6 +276,10 @@
         "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZhV-ua0AAAAJ&pagesize=100&citation_for_view=ZhV-ua0AAAAJ:Se3iqnhoufwC",
         "tags": [
           {
+            "label": "Benchmark",
+            "style": "benchmark"
+          },
+          {
             "label": "Safety",
             "style": "safety"
           },
@@ -341,6 +349,10 @@
         ],
         "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZhV-ua0AAAAJ&pagesize=100&citation_for_view=ZhV-ua0AAAAJ:LkGwnXOMwfcC",
         "tags": [
+          {
+            "label": "Benchmark",
+            "style": "benchmark"
+          },
           {
             "label": "Safety",
             "style": "safety"
@@ -485,6 +497,10 @@
         ],
         "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZhV-ua0AAAAJ&pagesize=100&citation_for_view=ZhV-ua0AAAAJ:roLk4NBRz8UC",
         "tags": [
+          {
+            "label": "Benchmark",
+            "style": "benchmark"
+          },
           {
             "label": "Agent",
             "style": "agent"
