@@ -45,6 +45,8 @@ a:hover { color: #175b87; }
 .citation-count { font-size: .85em; color: #68727b; white-space: nowrap; text-decoration: none; margin-left: .15rem; }
 .citation-highlight { color: #c52932; font-weight: 700; }
 .author__bio { line-height: 1.5; }
+.author__cv { display: inline-flex; align-items: center; gap: .3rem; margin: .6rem 0 .8rem; padding: .5rem .7rem; border: 1px solid #c7dce9; border-radius: 5px; background: #f1f7fb; color: #2879b0; font-size: .8rem; font-weight: 600; line-height: 1.3; text-decoration: none; }
+.author__cv:hover { background: #e4f0f8; color: #175b87; text-decoration: none; }
 .site-credit { color: #66717d; font-size: .8rem; border-top: 1px solid #e4e8ed; padding-top: 1rem; margin-top: 3rem; }
 :focus-visible { outline: 2px solid #2879b0; outline-offset: 3px; }
 @media (max-width: 767px) {
