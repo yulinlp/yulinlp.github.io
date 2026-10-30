@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Yulin Hu (胡雨林)"
+  name             : "Yulin Hu"
   avatar           : "images/avatar.jpeg"
   bio              : "SCIR, Harbin Institute of Technology"
   location         : "Harbin, China"

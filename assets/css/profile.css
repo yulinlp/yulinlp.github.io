@@ -5,7 +5,6 @@ a { color: #2879b0; }
 a:hover { color: #175b87; }
 .page__content { font-family: "Trebuchet MS", Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.65; }
 .page__content h1 { font-size: 1.85rem; color: #252525; margin: 0 0 1rem; }
-.chinese-name { font-size: .8em; font-weight: 500; margin-left: .4em; }
 .page__content h2 { margin-top: 1.8rem; padding-bottom: .35rem; border-bottom: 1px solid #eee; font-size: 1.65rem; color: #222; scroll-margin-top: 85px; }
 .page__content h3 { font-size: 1.35rem; margin: 1.5rem 0 .75rem; color: #252525; scroll-margin-top: 85px; }
 #about { scroll-margin-top: 85px; }

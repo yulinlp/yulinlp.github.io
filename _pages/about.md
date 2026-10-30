@@ -1,15 +1,15 @@
 ---
 permalink: /
-title: "Yulin Hu · 胡雨林"
+title: "Yulin Hu"
 excerpt: "Yulin Hu, master's student at Harbin Institute of Technology. Research on long-term agent memory, personalization, and safe language models."
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
-<h1 id="about">Yulin Hu <span class="chinese-name" lang="zh-CN">胡雨林</span></h1>
+<h1 id="about">Yulin Hu</h1>
 
-Hello! I am a master's student in Computer Science and Technology at [Harbin Institute of Technology](https://www.hit.edu.cn/), in the **Sentiment Computing (SC) group** of [SCIR](https://ir.hit.edu.cn/) (Research Center for Social Computing and Interactive Robotics). I am advised by [Prof. Yanyan Zhao](https://homepage.hit.edu.cn/yanyan?lang=zh) and co-advised by [Prof. Weixiang Zhao](https://circle-hit.github.io/). I am currently a research intern at **Huawei Consumer Business Group (终端 BG)**.
+Hello! I am a master's student in Computer Science and Technology at [Harbin Institute of Technology](https://www.hit.edu.cn/), in the **Sentiment Computing (SC) group** of [SCIR](https://ir.hit.edu.cn/) (Research Center for Social Computing and Interactive Robotics). I am advised by [Prof. Yanyan Zhao](https://homepage.hit.edu.cn/yanyan?lang=zh) and co-advised by [Prof. Weixiang Zhao](https://circle-hit.github.io/). I am currently a research intern at **Huawei Consumer Business Group**.
 
 My research focuses on **long-term memory for multimodal agents**: how agents store, maintain, retrieve, and use information across sustained interactions. I also work on **personalized and empathetic dialogue**, **safety alignment**, and **reasoning in large language models**.
 
@@ -57,23 +57,23 @@ I am interested in building agents that understand users over time and use memor
 
 <h2 id="projects">🛠️ Research & Applications</h2>
 
-- **[QiaoBan (巧板)](https://github.com/HIT-SCIR-SC/QiaoBan)** — Core developer of a personalized, empathetic conversational model for children and adolescents. [Official news: QiaoBan-P1 release](https://ir.hit.edu.cn/2025/0626/c19589a372759/page.htm) (June 2025).
-- **HIT AI Counselor (工小星)** — Core project lead and developer of a campus assistant combining university knowledge retrieval and empathetic dialogue. [Project news: official launch](https://ir.hit.edu.cn/2025/0806/c19589a376151/page.htm) (August 2025).
+- **[QiaoBan](https://github.com/HIT-SCIR-SC/QiaoBan)** — Core developer of a personalized, empathetic conversational model for children and adolescents. [Official news: QiaoBan-P1 release](https://ir.hit.edu.cn/2025/0626/c19589a372759/page.htm) (June 2025).
+- **HIT AI Counselor** — Core project lead and developer of a campus assistant combining university knowledge retrieval and empathetic dialogue. [Project news: official launch](https://ir.hit.edu.cn/2025/0806/c19589a376151/page.htm) (August 2025).
 
 <h2 id="education">🎓 Education</h2>
 
 - **Sept. 2025 – Present** · Master's student in Computer Science and Technology, **Harbin Institute of Technology**. Advisor: Prof. Yanyan Zhao; Co-advisor: [Prof. Weixiang Zhao](https://circle-hit.github.io/).
 - **Sept. 2021 – June 2025** · Bachelor’s degree in Computer Science and Technology, School of Future Technology, **Harbin Institute of Technology**.
 
-<h2 id="experience">💻 Research Experience</h2>
+<h2 id="experience">💻 Research Internships</h2>
 
-- **Huawei Consumer Business Group (终端 BG)** · Research Intern · **June 2026 – Present**.
+- **Huawei Consumer Business Group** · Research Intern · **June 2026 – Present**.
 - **Du Xiaoman Financial Technology** · Research Intern · **Dec. 2024 – Mar. 2025**. Research on empathetic and role-based conversational language models.
 
 <h2 id="honors">🎖️ Honors & Awards</h2>
 
 - **National Scholarship for Graduate Students**, Harbin Institute of Technology, 2026.
-- **University-level Outstanding Student Role Model (校级优秀学生标兵)**, Harbin Institute of Technology, 2026.
+- **University-level Outstanding Student Role Model**, Harbin Institute of Technology, 2026.
 - **Special-class Graduate Academic Scholarship**, Harbin Institute of Technology, 2025 & 2026.
 - **Outstanding Undergraduate Thesis**, Harbin Institute of Technology, 2025.
 - **Wentian Scholarship** (college-level), Harbin Institute of Technology, **four consecutive years**.
