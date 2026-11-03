@@ -1,3 +1,7 @@
 <script src="assets/js/main.min.js"></script>
 
 {% include analytics.html %}
+
+{% if jekyll.environment == "production" %}
+<script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+{% endif %}

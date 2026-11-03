@@ -84,4 +84,6 @@ I am interested in building agents that understand users over time and use memor
 - **Journal Reviewer:** Science China Information Sciences (SCIS).
 - **Conference Reviewer:** ICLR 2027, WWW 2027.
 
-<footer class="site-credit">Last updated: October 2026 · Built with <a href="https://github.com/RayeRen/acad-homepage.github.io">AcadHomepage</a>, following <a href="https://lightchen233.github.io/">Qiguang Chen's homepage</a>.</footer>
+<footer class="site-credit">Last updated: October 2026 · Built with <a href="https://github.com/RayeRen/acad-homepage.github.io">AcadHomepage</a>, following <a href="https://lightchen233.github.io/">Qiguang Chen's homepage</a>.
+<div class="site-traffic" aria-live="polite"><span id="busuanzi_container_site_pv" style="display: none;">Page views: <span id="busuanzi_value_site_pv"></span></span></div>
+</footer>
