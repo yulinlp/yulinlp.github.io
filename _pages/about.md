@@ -79,4 +79,9 @@ I am interested in building agents that understand users over time and use memor
 - **Wentian Scholarship** (college-level), Harbin Institute of Technology, **four consecutive years**.
 - **Innovation and Entrepreneurship Scholarship** (college-level), Harbin Institute of Technology, **four consecutive years**.
 
+<h2 id="service">🤝 Academic Service</h2>
+
+- **Journal Reviewer:** Science China Information Sciences (SCIS).
+- **Conference Reviewer:** ICLR 2027, WWW 2027.
+
 <footer class="site-credit">Last updated: October 2026 · Built with <a href="https://github.com/RayeRen/acad-homepage.github.io">AcadHomepage</a>, following <a href="https://lightchen233.github.io/">Qiguang Chen's homepage</a>.</footer>
