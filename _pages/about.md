@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Yulin Hu"
-excerpt: "Yulin Hu, master's student at Harbin Institute of Technology. Research on long-term agent memory, personalization, and safe language models."
+excerpt: "Yulin Hu, master's student and incoming Ph.D. student (Spring 2027) at Harbin Institute of Technology. Research on long-term agent memory, personalization, and safe language models."
 author_profile: true
 redirect_from:
   - /about/
@@ -9,13 +9,15 @@ redirect_from:
 ---
 <h1 id="about">Yulin Hu</h1>
 
-Hello! I am a master's student in Computer Science and Technology at [Harbin Institute of Technology](https://www.hit.edu.cn/), in the **Sentiment Computing (SC) group** of [SCIR](https://ir.hit.edu.cn/) (Research Center for Social Computing and Interactive Robotics). I am advised by [Prof. Yanyan Zhao](https://homepage.hit.edu.cn/yanyan?lang=zh) and co-advised by [Prof. Weixiang Zhao](https://circle-hit.github.io/). I am currently a research intern at **Huawei Consumer Business Group**.
+Hello! I am a master's student in Computer Science and Technology at [Harbin Institute of Technology](https://www.hit.edu.cn/), in the **Sentiment Computing (SC) group** of [SCIR](https://ir.hit.edu.cn/) (Research Center for Social Computing and Interactive Robotics). I have been admitted to HIT's Ph.D. program and will begin my doctoral studies in **Spring 2027**. I am advised by [Prof. Yanyan Zhao](https://homepage.hit.edu.cn/yanyan?lang=zh) and co-advised by [Prof. Weixiang Zhao](https://circle-hit.github.io/). I am currently a research intern at **Huawei Consumer Business Group**.
 
 My research focuses on **long-term memory for multimodal agents**: how agents store, maintain, retrieve, and use information across sustained interactions. I also work on **personalized and empathetic dialogue**, **safety alignment**, and **reasoning in large language models**.
 
 I am interested in building agents that understand users over time and use memory when it is relevant and helpful. Feel free to reach out at [ylhu@ir.hit.edu.cn](mailto:ylhu@ir.hit.edu.cn).
 
 <h2 id="news">🔥 News</h2>
+
+- **Nov. 2026** · Admitted to the Ph.D. program at **Harbin Institute of Technology** through the master's-to-Ph.D. transfer pathway. I will begin my doctoral studies in **Spring 2027**.
 
 - **Oct. 2026** · [SC-Embedding](https://github.com/yulinlp/SC-Embedding) is under review at **WWW 2027**, and [How Do Language Models Use Memory?](https://github.com/yulinlp/How-LLMs-Use-Memory) is under review at **ICLR 2027**. Code is available for both projects.
 
@@ -62,6 +64,7 @@ I am interested in building agents that understand users over time and use memor
 
 <h2 id="education">🎓 Education</h2>
 
+- **Spring 2027 (incoming)** · Ph.D. studies, **Harbin Institute of Technology**. Admitted through the master's-to-Ph.D. transfer pathway.
 - **Sept. 2025 – Present** · Master's student in Computer Science and Technology, **Harbin Institute of Technology**. Advisor: Prof. Yanyan Zhao; Co-advisor: [Prof. Weixiang Zhao](https://circle-hit.github.io/).
 - **Sept. 2021 – June 2025** · Bachelor’s degree in Computer Science and Technology, School of Future Technology, **Harbin Institute of Technology**.
 
@@ -84,6 +87,6 @@ I am interested in building agents that understand users over time and use memor
 - **Journal Reviewer:** Science China Information Sciences (SCIS).
 - **Conference Reviewer:** ICLR 2027, WWW 2027.
 
-<footer class="site-credit">Last updated: October 2026 · Built with <a href="https://github.com/RayeRen/acad-homepage.github.io">AcadHomepage</a>, following <a href="https://lightchen233.github.io/">Qiguang Chen's homepage</a>.
+<footer class="site-credit">Last updated: November 2026 · Built with <a href="https://github.com/RayeRen/acad-homepage.github.io">AcadHomepage</a>, following <a href="https://lightchen233.github.io/">Qiguang Chen's homepage</a>.
 <div class="site-traffic" aria-live="polite"><span id="busuanzi_container_site_pv" style="display: none;">Page views: <span id="busuanzi_value_site_pv"></span></span></div>
 </footer>
